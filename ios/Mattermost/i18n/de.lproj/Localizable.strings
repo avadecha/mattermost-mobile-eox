@@ -116,7 +116,6 @@ Bist du dir sicher, dass du {term} {name} archivieren möchtest?";
 "channel_info.archive_failed" = "Beim Versuch, den Kanal {displayName} zu archivieren, ist ein Fehler aufgetreten";
 "channel_info.archive_title" = "{term} archivieren";
 "channel_info.channel_auto_follow_threads" = "Allen Unterhaltungen in diesem Kanal folgen";
-"channel_info.channel_auto_follow_threads_failed" = "Beim Versuch, allen Unterhaltungen im Kanal {displayName} automatisch zu verfolgen, ist ein Fehler aufgetreten";
 "channel_info.channel_files" = "Dateien";
 "channel_info.close" = "Schliessen";
 "channel_info.close_dm" = "Direktnachricht schließen";
@@ -444,8 +443,8 @@ Bist du sicher, dass du **{displayName}**** in einen privaten Kanal umwandeln m�
 "mobile.add_team.create_team" = "Neue Teams erstellen";
 "mobile.add_team.join_team" = "Einem anderen Team beitreten";
 "mobile.android.back_handler_exit" = "Erneut zurück drücken zum verlassen";
-"mobile.android.photos_permission_denied_description" = "Laden Sie Fotos auf deinen Server hoch oder speicher sie auf deinem Gerät. Öffne die Einstellungen, um Mattermost Beta Lese- und Schreibzugriff auf deine Fotobibliothek zu gewähren.";
-"mobile.android.photos_permission_denied_title" = "Mattermost Beta möchte auf Deine Fotos zugreifen";
+"mobile.android.photos_permission_denied_description" = "Laden Sie Fotos auf deinen Server hoch oder speicher sie auf deinem Gerät. Öffne die Einstellungen, um EOX Lese- und Schreibzugriff auf deine Fotobibliothek zu gewähren.";
+"mobile.android.photos_permission_denied_title" = "EOX möchte auf Deine Fotos zugreifen";
 "mobile.announcement_banner.title" = "Ankündigung";
 "mobile.calls_audio_device" = "Audiogerät auswählen";
 "mobile.calls_bluetooth" = "Bluetooth";
@@ -531,8 +530,8 @@ Bist du sicher, dass du **{displayName}**** in einen privaten Kanal umwandeln m�
 "mobile.calls_viewing_screen" = "Du siehst {name}'s Bildschirm";
 "mobile.calls_you" = "(Du)";
 "mobile.calls_you_2" = "Du";
-"mobile.camera_photo_permission_denied_description" = "Nimm Fotos auf und lade sie auf deinen Server hoch oder speichere sie auf deinem Gerät. Öffne die Einstellungen, um Mattermost Beta Lese- und Schreibzugriff auf deine Kamera zu gewähren.";
-"mobile.camera_photo_permission_denied_title" = "Mattermost Beta möchte auf Deine Kamera zugreifen";
+"mobile.camera_photo_permission_denied_description" = "Nimm Fotos auf und lade sie auf deinen Server hoch oder speichere sie auf deinem Gerät. Öffne die Einstellungen, um EOX Lese- und Schreibzugriff auf deine Kamera zu gewähren.";
+"mobile.camera_photo_permission_denied_title" = "EOX möchte auf Deine Kamera zugreifen";
 "mobile.camera_type.title" = "Kamera-Optionen";
 "mobile.channel_add_members.error" = "Es ist ein Fehler aufgetreten und wir konnten diese Benutzer nicht zum Kanal hinzufügen.";
 "mobile.channel_info.alertNo" = "Nein";
@@ -593,8 +592,8 @@ Tippe auf Neustarten um die App neu zu öffnen. Nach dem Neustart kannst Du das 
 "mobile.gallery.title" = "{index} von {total}";
 "mobile.integration_selector.loading_channels" = "Lade Kanäle...";
 "mobile.integration_selector.loading_options" = "Lade Optionen...";
-"mobile.ios.photos_permission_denied_description" = "Lade Fotos und Videos auf deinen Server hoch oder speichern sie auf deinem Gerät. Öffne die Einstellungen, um Mattermost Beta Lese- und Schreibzugriff auf deine Foto- und Videobibliothek zu gewähren.";
-"mobile.ios.photos_permission_denied_title" = "Mattermost Beta möchte auf Deine Fotos zugreifen";
+"mobile.ios.photos_permission_denied_description" = "Lade Fotos und Videos auf deinen Server hoch oder speichern sie auf deinem Gerät. Öffne die Einstellungen, um EOX Lese- und Schreibzugriff auf deine Foto- und Videobibliothek zu gewähren.";
+"mobile.ios.photos_permission_denied_title" = "EOX möchte auf Deine Fotos zugreifen";
 "mobile.join_channel.error" = "Wir konnten dem Kanal {displayName} nicht beitreten.";
 "mobile.leave_and_join_confirmation" = "Verlassen & Teilnehmen";
 "mobile.leave_and_join_message" = "Du bist schon in einem Kanalanruf in ~{leaveChannelName}. Willst du den aktuellen Anruf verlassen und zum Anruf in ~{joinChannelName} wechseln?";
@@ -754,8 +753,8 @@ Eine Serveraktualisierung ist erforderlich, um die Mattermost-App zu verwenden. 
 "mobile.session_expired_days_hrs" = "Bitte melde dich an, um weiterhin Benachrichtigungen zu erhalten. Sitzungen für {siteName} sind so konfiguriert, dass sie {daysCount, plural, one{jeden Tag} other{alle {daysCount, number} Tage}} und {hoursCount, plural, one{jede Stunde} other{alle {hoursCount, number} Stunden}} ablaufen.";
 "mobile.session_expired_hrs" = "Bitte melde dich an, um weiterhin Benachrichtigungen zu erhalten. Sitzungen für {siteName} sind so konfiguriert, dass sie {hoursCount, plural, one{jede Stunde} other{alle {hoursCount, number} Stunden}} ablaufen.";
 "mobile.set_status.dnd" = "Nicht stören";
-"mobile.storage_permission_denied_description" = "Lade Dateien auf deinen Server hoch. Öffne die Einstellungen, um Mattermost Beta Lese- und Schreibzugriff auf Dateien auf diesem Gerät zu gewähren.";
-"mobile.storage_permission_denied_title" = "Mattermost Beta möchte auf Deine Dateien zugreifen";
+"mobile.storage_permission_denied_description" = "Lade Dateien auf deinen Server hoch. Öffne die Einstellungen, um EOX Lese- und Schreibzugriff auf Dateien auf diesem Gerät zu gewähren.";
+"mobile.storage_permission_denied_title" = "EOX möchte auf Deine Dateien zugreifen";
 "mobile.suggestion.members" = "Mitglieder";
 "mobile.system_message.channel_archived_message" = "{username} hat den Kanal archiviert";
 "mobile.system_message.channel_unarchived_message" = "{username} hat den Kanal wiederhergestellt";
@@ -768,7 +767,7 @@ Eine Serveraktualisierung ist erforderlich, um die Mattermost-App zu verwenden. 
 "mobile.system_message.update_channel_purpose_message.updated_to" = "{username} hat den Kanalzweck geändert zu: {newPurpose}";
 "mobile.tos_link" = "Nutzungsbedingungen";
 "mobile.user_list.deactivated" = "Deaktiviert";
-"mobile.write_storage_permission_denied_description" = "Speichere Dateien auf deinem Gerät. Öffne die Einstellungen, um Mattermost Beta Schreibzugriff auf Dateien auf diesem Gerät zu gewähren.";
+"mobile.write_storage_permission_denied_description" = "Speichere Dateien auf deinem Gerät. Öffne die Einstellungen, um EOX Schreibzugriff auf Dateien auf diesem Gerät zu gewähren.";
 "modal.manual_status.auto_responder.message_" = "Möchtest du deinen Status auf \"{status}\" umschalten und automatische Antworten deaktivieren?";
 "modal.manual_status.auto_responder.message_away" = "Möchtest du deinen Status auf \"Abwesend\" umschalten und automatische Antworten deaktivieren?";
 "modal.manual_status.auto_responder.message_dnd" = "Möchtest du deinen Status auf \"Nicht stören\" umschalten und automatische Antworten deaktivieren?";
@@ -1019,7 +1018,7 @@ Dadurch werden alle über die App heruntergeladenen Dateien für diesen Server g
 "share_extension.channel_label" = "Kanal";
 "share_extension.channels_screen.title" = "Kanal auswählen";
 "share_extension.count_limit" = "Du kannst nur {count, number} {count, plural, one {Datei} other {Dateien}} auf diesem Server freigeben";
-"share_extension.error_screen.description" = "Beim Versuch, den Inhalt mit Mattermost Beta zu teilen, ist ein Fehler aufgetreten.";
+"share_extension.error_screen.description" = "Beim Versuch, den Inhalt mit EOX zu teilen, ist ein Fehler aufgetreten.";
 "share_extension.error_screen.label" = "Ein Fehler ist aufgetreten";
 "share_extension.error_screen.reason" = "Grund: {reason}";
 "share_extension.file_limit.multiple" = "Jede Datei muss kleiner sein als {size}";
@@ -1029,7 +1028,7 @@ Dadurch werden alle über die App heruntergeladenen Dateien für diesen Server g
 "share_extension.multiple_label" = "{count, number} Anhänge";
 "share_extension.server_label" = "Server";
 "share_extension.servers_screen.title" = "Server auswählen";
-"share_extension.share_screen.title" = "Teilen mit Mattermost Beta";
+"share_extension.share_screen.title" = "Teilen mit EOX";
 "share_extension.upload_disabled" = "Datei-Uploads sind für den gewählten Server deaktiviert";
 "share_feedback.button.no" = "Nein, danke";
 "share_feedback.button.yes" = "Ja";
@@ -1134,3 +1133,4 @@ Du kannst dies in den Benachrichtigungseinstellungen für jede Gruppennachricht 
 "video.download_description" = "Dieses Video muss heruntergeladen werden, um es abzuspielen.";
 "video.failed_description" = "Beim Abspielen des Videos ist ein Fehler aufgetreten.";
 "your.servers" = "Deine Server";
+"channel_info.channel_auto_follow_threads_failed" = "Beim Versuch, allen Unterhaltungen im Kanal {displayName} automatisch zu verfolgen, ist ein Fehler aufgetreten";

@@ -427,8 +427,8 @@ Bu değişiklik kalıcıdır ve geri alınamaz.
 "mobile.add_team.create_team" = "Yeni takım ekle";
 "mobile.add_team.join_team" = "Başka bir takıma katıl";
 "mobile.android.back_handler_exit" = "Çıkmak için yeniden geri üzerine tıklayın";
-"mobile.android.photos_permission_denied_description" = "Fotoğrafları sunucunuza yükleyin ya da aygtınıza kaydedin. Ayarlar bölümünden, fotoğraf kitaplığınıza Mattermost Beta için okuma ve yazma erişimi verin.";
-"mobile.android.photos_permission_denied_title" = "Mattermost Beta fotoğraflarınıza erişmek istiyor";
+"mobile.android.photos_permission_denied_description" = "Fotoğrafları sunucunuza yükleyin ya da aygtınıza kaydedin. Ayarlar bölümünden, fotoğraf kitaplığınıza EOX için okuma ve yazma erişimi verin.";
+"mobile.android.photos_permission_denied_title" = "EOX fotoğraflarınıza erişmek istiyor";
 "mobile.announcement_banner.title" = "Duyuru";
 "mobile.calls_audio_device" = "Ses aygıtını seçin";
 "mobile.calls_bluetooth" = "Bluetooth";
@@ -506,8 +506,8 @@ Bu değişiklik kalıcıdır ve geri alınamaz.
 "mobile.calls_viewing_screen" = "{name} katılımcısının ekranını görüntülüyorsunuz";
 "mobile.calls_you" = "(siz)";
 "mobile.calls_you_2" = "Siz";
-"mobile.camera_photo_permission_denied_description" = "Fotoğraf çekin ve sunucunuza yükleyin ya da aygıtınıza kaydedin. Mattermost Beta uygulamasına kameranızı okuma ve yazma izni vermek için ayarları açın.";
-"mobile.camera_photo_permission_denied_title" = "Mattermost Beta kameranıza erişmek istiyor";
+"mobile.camera_photo_permission_denied_description" = "Fotoğraf çekin ve sunucunuza yükleyin ya da aygıtınıza kaydedin. EOX uygulamasına kameranızı okuma ve yazma izni vermek için ayarları açın.";
+"mobile.camera_photo_permission_denied_title" = "EOX kameranıza erişmek istiyor";
 "mobile.camera_type.title" = "Kamera ayarları";
 "mobile.channel_add_members.error" = "Bir sorun çıktığından bu kullanıcılar kanala eklenemedi.";
 "mobile.channel_info.alertNo" = "Hayır";
@@ -568,8 +568,8 @@ Uygulamayı açmak için yeniden başlat üzerine tıklayın. Yeniden başlatıl
 "mobile.gallery.title" = "{index} / {total}";
 "mobile.integration_selector.loading_channels" = "Kanallar yükleniyor...";
 "mobile.integration_selector.loading_options" = "Ayarlar yükleniyor...";
-"mobile.ios.photos_permission_denied_description" = "Fotoğrafları ve görüntüleri sunucunuza yükleyin ya da aygıtınıza kaydedin. Ayarlar bölümünden, fotoğraf ve görüntü kitaplığınıza Mattermost Beta için okuma ve yazma izni verin.";
-"mobile.ios.photos_permission_denied_title" = "Mattermost Beta fotoğraflarınıza erişmek istiyor";
+"mobile.ios.photos_permission_denied_description" = "Fotoğrafları ve görüntüleri sunucunuza yükleyin ya da aygıtınıza kaydedin. Ayarlar bölümünden, fotoğraf ve görüntü kitaplığınıza EOX için okuma ve yazma izni verin.";
+"mobile.ios.photos_permission_denied_title" = "EOX fotoğraflarınıza erişmek istiyor";
 "mobile.join_channel.error" = "{displayName} kanalına katılamadık.";
 "mobile.leave_and_join_confirmation" = "Ayrıl ve katıl";
 "mobile.leave_and_join_message" = "Zaten ~{leaveChannelName} kanalındaki bir çağrıdasınız. Bu çağrıdan ayrılıp ~{joinChannelName} kanalındaki çağrıya katılmak ister misiniz?";
@@ -729,8 +729,8 @@ Mattermost uygulamasını kullanmak için sunucunun güncellenmesi gerekiyor. L�
 "mobile.session_expired_days_hrs" = "Lütfen bildirimleri alabilmek için oturum açın. {siteName} oturumları {daysCount, number} {daysCount, plural, one {gün} other {gün}} ve {hoursCount, number} {hoursCount, plural, one {saat} other {saat}} sonra kapatılacak şekilde yapılandırılmış.";
 "mobile.session_expired_hrs" = "Lütfen bildirimleri alabilmek için oturum açın. {siteName} oturumları {hoursCount, number} {hoursCount, plural, one {saat} other {saat}} sonra kapatılacak şekilde yapılandırılmış.";
 "mobile.set_status.dnd" = "Rahatsız etmeyin";
-"mobile.storage_permission_denied_description" = "Dosyaları sunucunuza yükleyin. Mattermost Beta uygulamasına bu aygıt üzerindeki dosyaları okuma ve yazma izni vermek için ayarları açın.";
-"mobile.storage_permission_denied_title" = "Mattermost Beta dosyalarınıza erişmek istiyor";
+"mobile.storage_permission_denied_description" = "Dosyaları sunucunuza yükleyin. EOX uygulamasına bu aygıt üzerindeki dosyaları okuma ve yazma izni vermek için ayarları açın.";
+"mobile.storage_permission_denied_title" = "EOX dosyalarınıza erişmek istiyor";
 "mobile.suggestion.members" = "Üyeler";
 "mobile.system_message.channel_archived_message" = "{username} kanalı arşivledi";
 "mobile.system_message.channel_unarchived_message" = "{username} kanalı arşivden çıkardı";
@@ -743,7 +743,7 @@ Mattermost uygulamasını kullanmak için sunucunun güncellenmesi gerekiyor. L�
 "mobile.system_message.update_channel_purpose_message.updated_to" = "{username} kanal amacını {newPurpose} olarak değiştirdi";
 "mobile.tos_link" = "Hizmet koşulları";
 "mobile.user_list.deactivated" = "Devre Dışı";
-"mobile.write_storage_permission_denied_description" = "Dosyaları aygıtınıza kaydedin. Mattermost Beta uygulamasına bu aygıt üzerine dosya yazma izni vermek için ayarları açın.";
+"mobile.write_storage_permission_denied_description" = "Dosyaları aygıtınıza kaydedin. EOX uygulamasına bu aygıt üzerine dosya yazma izni vermek için ayarları açın.";
 "modal.manual_status.auto_responder.message_" = "Durumunuzu \"{status}\" olarak değiştirmek ve otomatik yanıtları devre dışı bırakmak istediğinize emin misiniz?";
 "modal.manual_status.auto_responder.message_away" = "Durumunuzu \"Uzakta\" olarak değiştirmek ve otomatik yanıtları devre dışı bırakmak istediğinize emin misiniz?";
 "modal.manual_status.auto_responder.message_dnd" = "Durumunuzu \"Rahatsız etmeyin\" olarak değiştirmek ve otomatik yanıtları devre dışı bırakmak istediğinize emin misiniz?";
@@ -993,7 +993,7 @@ Bu işlem, bu sunucuya uygulama ile indirilmiş tüm dosyaları siler. Lütfen i
 "share_extension.channel_label" = "Kanal";
 "share_extension.channels_screen.title" = "Kanal seçin";
 "share_extension.count_limit" = "Bu sunucuda yalnızca {count, number} {count, plural, one {dosya} other {dosya}} paylaşabilirsiniz";
-"share_extension.error_screen.description" = "İçerik Mattermost Beta ile paylaşılmaya çalışılırken bir sorun çıktı.";
+"share_extension.error_screen.description" = "İçerik EOX ile paylaşılmaya çalışılırken bir sorun çıktı.";
 "share_extension.error_screen.label" = "Bir sorun çıktı";
 "share_extension.error_screen.reason" = "Nedeni: {reason}";
 "share_extension.file_limit.multiple" = "Her bir dosya {size} boyutundan küçük olmalıdır";
@@ -1003,7 +1003,7 @@ Bu işlem, bu sunucuya uygulama ile indirilmiş tüm dosyaları siler. Lütfen i
 "share_extension.multiple_label" = "{count, number} ek dosya";
 "share_extension.server_label" = "Sunucu";
 "share_extension.servers_screen.title" = "Sunucu seçin";
-"share_extension.share_screen.title" = "Mattermost Beta ile paylaş";
+"share_extension.share_screen.title" = "EOX ile paylaş";
 "share_extension.upload_disabled" = "Seçilmiş sunucu için dosya yükleme özelliği devre dışı bırakılmış";
 "share_feedback.button.no" = "Hayır, teşekkürler";
 "share_feedback.button.yes" = "Evet";

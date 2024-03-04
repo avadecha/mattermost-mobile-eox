@@ -700,7 +700,7 @@
 "mobile.session_expired.title" = "Сесія завершилася";
 "mobile.set_status.dnd" = "Не турбувати ";
 "mobile.storage_permission_denied_description" = "Завантажте файли на ваш сервер. Відкрийте Налаштування, щоб надати {назва_програми} доступ до читання і запису файлів на цьому пристрої.";
-"mobile.storage_permission_denied_title" = "Mattermost Beta хоче отримати доступ до ваших файлів";
+"mobile.storage_permission_denied_title" = "EOX хоче отримати доступ до ваших файлів";
 "mobile.suggestion.members" = "Учасники ";
 "mobile.system_message.channel_archived_message" = "{username} архівує канал.";
 "mobile.system_message.channel_unarchived_message" = "{username} архівує канал.";

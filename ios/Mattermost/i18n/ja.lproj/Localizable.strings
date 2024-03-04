@@ -116,7 +116,6 @@
 "channel_info.archive_failed" = "チャンネル {displayName} をアーカイブする際にエラーが発生しました";
 "channel_info.archive_title" = "{term} をアーカイブする";
 "channel_info.channel_auto_follow_threads" = "このチャンネルのすべてのスレッドをフォローする";
-"channel_info.channel_auto_follow_threads_failed" = "このチャンネル {displayName} のすべてのスレッドを自動フォローする際にエラーが発生しました";
 "channel_info.channel_files" = "ファイル";
 "channel_info.close" = "閉じる";
 "channel_info.close_dm" = "ダイレクトメッセージを閉じる";
@@ -444,8 +443,8 @@
 "mobile.add_team.create_team" = "新しいチームを作成する";
 "mobile.add_team.join_team" = "別のチームに参加する";
 "mobile.android.back_handler_exit" = "終了するにはもう一度戻るを押してください";
-"mobile.android.photos_permission_denied_description" = "サーバーへ写真をアップロードするか、デバイスに写真を保存します。設定を開き、Mattermost Beta にフォトライブラリへの読み込みと書き込みのアクセス権を付与してください。";
-"mobile.android.photos_permission_denied_title" = "Mattermost Betaがフォトライブラリーへのアクセスを要求しています";
+"mobile.android.photos_permission_denied_description" = "サーバーへ写真をアップロードするか、デバイスに写真を保存します。設定を開き、EOX にフォトライブラリへの読み込みと書き込みのアクセス権を付与してください。";
+"mobile.android.photos_permission_denied_title" = "EOXがフォトライブラリーへのアクセスを要求しています";
 "mobile.announcement_banner.title" = "アナウンス";
 "mobile.calls_audio_device" = "オーディオデバイスを選択する";
 "mobile.calls_bluetooth" = "Bluetooth";
@@ -531,8 +530,8 @@
 "mobile.calls_viewing_screen" = "{name} の画面を表示しています";
 "mobile.calls_you" = "(あなた)";
 "mobile.calls_you_2" = "あなた";
-"mobile.camera_photo_permission_denied_description" = "写真を撮影し、それらをサーバーへアップロードしたりデバイスに保存したりします。設定を開き、Mattermost Beta にカメラへの読み取りと書き込みのアクセス権を付与してください。";
-"mobile.camera_photo_permission_denied_title" = "Mattermost Beta があなたのカメラへアクセスしようとしています";
+"mobile.camera_photo_permission_denied_description" = "写真を撮影し、それらをサーバーへアップロードしたりデバイスに保存したりします。設定を開き、EOX にカメラへの読み取りと書き込みのアクセス権を付与してください。";
+"mobile.camera_photo_permission_denied_title" = "EOX があなたのカメラへアクセスしようとしています";
 "mobile.camera_type.title" = "カメラオプション";
 "mobile.channel_add_members.error" = "エラーが発生したため、ユーザーをチャンネルに追加できませんでした。";
 "mobile.channel_info.alertNo" = "いいえ";
@@ -593,8 +592,8 @@
 "mobile.gallery.title" = "{index} / {total}";
 "mobile.integration_selector.loading_channels" = "チャンネルを読み込んでいます...";
 "mobile.integration_selector.loading_options" = "オプションを読み込んでいます...";
-"mobile.ios.photos_permission_denied_description" = "写真や動画をサーバーにアップロードしたり、デバイスに保存したりします。設定を開き、Mattermost Beta に写真とビデオライブラリーへの読み取りと書き込みのアクセス権を付与してください。";
-"mobile.ios.photos_permission_denied_title" = "Mattermost Betaがフォトライブラリーへのアクセスを要求しています";
+"mobile.ios.photos_permission_denied_description" = "写真や動画をサーバーにアップロードしたり、デバイスに保存したりします。設定を開き、EOX に写真とビデオライブラリーへの読み取りと書き込みのアクセス権を付与してください。";
+"mobile.ios.photos_permission_denied_title" = "EOXがフォトライブラリーへのアクセスを要求しています";
 "mobile.join_channel.error" = "チャンネル {displayName} に参加できませんでした。";
 "mobile.leave_and_join_confirmation" = "脱退と参加";
 "mobile.leave_and_join_message" = "あなたはすでに ~{leaveChannelName} の通話に参加しています。現在の通話から脱退し、~{joinChannelName} の通話に参加しますか?";
@@ -754,8 +753,8 @@ Mattermost appを使用するにはサーバーのアップグレードが必要
 "mobile.session_expired_days_hrs" = "引き続き通知を受け取るにはログインしてください。{siteName} のセッションは {daysCount, number} {daysCount, plural, one {日} other {日}} {hoursCount, number} {hoursCount, plural, one {時間} other {時間}} 毎に期限切れになるよう設定されています。";
 "mobile.session_expired_hrs" = "引き続き通知を受け取るにはログインしてください。{siteName} のセッションは {hoursCount, number} {hoursCount, plural, one {時間} other {時間}} 毎に期限切れになるよう設定されています。";
 "mobile.set_status.dnd" = "取り込み中";
-"mobile.storage_permission_denied_description" = "サーバーにファイルをアップロードします。設定を開き、Mattermost Beta にこのデバイスのファイルへの読み取りと書き込みのアクセス権を付与してください。";
-"mobile.storage_permission_denied_title" = "Mattermost Beta があなたのファイルへアクセスしようとしています";
+"mobile.storage_permission_denied_description" = "サーバーにファイルをアップロードします。設定を開き、EOX にこのデバイスのファイルへの読み取りと書き込みのアクセス権を付与してください。";
+"mobile.storage_permission_denied_title" = "EOX があなたのファイルへアクセスしようとしています";
 "mobile.suggestion.members" = "メンバー";
 "mobile.system_message.channel_archived_message" = "{username} がチャンネルをアーカイブしました";
 "mobile.system_message.channel_unarchived_message" = "{username} がチャンネルをアーカイブから復元しました";
@@ -768,7 +767,7 @@ Mattermost appを使用するにはサーバーのアップグレードが必要
 "mobile.system_message.update_channel_purpose_message.updated_to" = "{username} がチャンネルの目的を {newPurpose} へ更新しました";
 "mobile.tos_link" = "利用規約";
 "mobile.user_list.deactivated" = "無効にする";
-"mobile.write_storage_permission_denied_description" = "デバイスにファイルを保存します。設定を開き、Mattermost Beta にこのデバイスのファイルへの書き込みのアクセス権を付与してください。";
+"mobile.write_storage_permission_denied_description" = "デバイスにファイルを保存します。設定を開き、EOX にこのデバイスのファイルへの書き込みのアクセス権を付与してください。";
 "modal.manual_status.auto_responder.message_" = "あなたのステータスを \"{status}\" に変更し、自動返信を無効化してもよろしいですか？";
 "modal.manual_status.auto_responder.message_away" = "あなたのステータスを \"離席中\" に変更し、自動返信を無効化してもよろしいですか？";
 "modal.manual_status.auto_responder.message_dnd" = "あなたのステータスを \"取り込み中\" に変更し、自動返信を無効化してもよろしいですか？";
@@ -1019,7 +1018,7 @@ Mattermost appを使用するにはサーバーのアップグレードが必要
 "share_extension.channel_label" = "チャンネル";
 "share_extension.channels_screen.title" = "チャンネルを選択";
 "share_extension.count_limit" = "このサーバーでは、 {count, number} {count, plural, one {ファイル} other {ファイル}}しか共有できません";
-"share_extension.error_screen.description" = "Mattermost Beta にコンテンツを共有する際にエラーが発生しました。";
+"share_extension.error_screen.description" = "EOX にコンテンツを共有する際にエラーが発生しました。";
 "share_extension.error_screen.label" = "エラーが発生しました";
 "share_extension.error_screen.reason" = "理由: {reason}";
 "share_extension.file_limit.multiple" = "各ファイルは {size} 以下のサイズである必要があります";
@@ -1029,7 +1028,7 @@ Mattermost appを使用するにはサーバーのアップグレードが必要
 "share_extension.multiple_label" = "{count, number} 添付ファイル";
 "share_extension.server_label" = "サーバー";
 "share_extension.servers_screen.title" = "サーバーを選択する";
-"share_extension.share_screen.title" = "Mattermost Beta に共有する";
+"share_extension.share_screen.title" = "EOX に共有する";
 "share_extension.upload_disabled" = "選択したサーバーではファイルアップロードが無効化されています";
 "share_feedback.button.no" = "いいえ、結構です";
 "share_feedback.button.yes" = "はい";
@@ -1134,3 +1133,4 @@ Mattermost appを使用するにはサーバーのアップグレードが必要
 "video.download_description" = "この動画を再生するには、ダウンロードが必要です。";
 "video.failed_description" = "動画を再生する際にエラーが発生しました。";
 "your.servers" = "あなたのサーバー";
+"channel_info.channel_auto_follow_threads_failed" = "このチャンネル {displayName} のすべてのスレッドを自動フォローする際にエラーが発生しました";

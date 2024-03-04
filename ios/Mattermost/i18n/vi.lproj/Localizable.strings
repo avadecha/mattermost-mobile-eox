@@ -116,7 +116,6 @@ Các kênh đã lưu trữ có thể được hủy lưu trữ nếu cần lại
 "channel_info.archive_failed" = "Đã xảy ra lỗi khi lưu trữ kênh {displayName}";
 "channel_info.archive_title" = "Lưu trữ {term}";
 "channel_info.channel_auto_follow_threads" = "Theo dõi tất cả các chủ đề trong kênh này";
-"channel_info.channel_auto_follow_threads_failed" = "Đã xảy ra lỗi khi cố gắng tự động theo dõi tất cả các chủ đề trong kênh {displayName}";
 "channel_info.channel_files" = "Tệp";
 "channel_info.close" = "Đóng";
 "channel_info.close_dm" = "Đóng tin nhắn trực tiếp";
@@ -431,7 +430,7 @@ Bạn có chắc chắn muốn chuyển đổi {displayName} thành một kênh 
 "mobile.add_team.join_team" = "Tham gia nhóm khác";
 "mobile.android.back_handler_exit" = "Nhấn quay lại một lần nữa để thoát";
 "mobile.android.photos_permission_denied_description" = "Tải ảnh lên phiên bản Mattermost của bạn hoặc lưu chúng vào thiết bị của bạn. Mở Cài đặt để cấp quyền truy cập Đọc và ghi vào thư viện ảnh của bạn.";
-"mobile.android.photos_permission_denied_title" = "Mattermost Beta muốn truy cập ảnh của bạn";
+"mobile.android.photos_permission_denied_title" = "EOX muốn truy cập ảnh của bạn";
 "mobile.announcement_banner.title" = "Thông báo";
 "mobile.calls_audio_device" = "Chọn thiết bị âm thanh";
 "mobile.calls_bluetooth" = "Bluetooth";
@@ -509,7 +508,7 @@ Bạn có chắc chắn muốn chuyển đổi {displayName} thành một kênh 
 "mobile.calls_you" = "(bạn)";
 "mobile.calls_you_2" = "Bạn";
 "mobile.camera_photo_permission_denied_description" = "Chụp ảnh và tải chúng lên phiên bản Mattermost của bạn hoặc lưu chúng vào thiết bị của bạn. Mở Cài đặt để cấp quyền truy cập Đọc và ghi máy ảnh của bạn cho Mattermost.";
-"mobile.camera_photo_permission_denied_title" = "Mattermost Beta muốn truy cập vào máy ảnh của bạn";
+"mobile.camera_photo_permission_denied_title" = "EOX muốn truy cập vào máy ảnh của bạn";
 "mobile.camera_type.title" = "Tùy chọn máy ảnh";
 "mobile.channel_add_members.error" = "Đã xảy ra lỗi và chúng tôi không thể thêm những người dùng đó vào kênh.";
 "mobile.channel_info.alertNo" = "Không";
@@ -571,7 +570,7 @@ Nhấn khởi chạy lại để mở lại ứng dụng. Sau khi khởi động
 "mobile.integration_selector.loading_channels" = "Đang tải kênh...";
 "mobile.integration_selector.loading_options" = "Đang tải tùy chọn...";
 "mobile.ios.photos_permission_denied_description" = "Tải ảnh và video lên phiên bản Mattermost của bạn hoặc lưu chúng vào thiết bị của bạn. Mở Cài đặt để cấp quyền truy cập Đọc và ghi vào thư viện ảnh và video của bạn cho Mattermost.";
-"mobile.ios.photos_permission_denied_title" = "Mattermost Beta muốn truy cập ảnh của bạn";
+"mobile.ios.photos_permission_denied_title" = "EOX muốn truy cập ảnh của bạn";
 "mobile.join_channel.error" = "Chúng tôi không thể mở một tin nhắn trực tiếp với {displayName}. Vui lòng kiểm tra kết nối của bạn và thử lại.";
 "mobile.leave_and_join_confirmation" = "Rời khỏi & Tham gia";
 "mobile.leave_and_join_message" = "Bạn đã tham gia cuộc gọi kênh trong ~{leaveChannelName}. Bạn có muốn rời khỏi cuộc gọi hiện tại của mình và tham gia cuộc gọi trong ~{joinChannelName} không?";
@@ -728,7 +727,7 @@ Cần nâng cấp máy chủ để sử dụng ứng dụng Mattermost. Vui lòn
 "mobile.session_expired.title" = "Phiên hết hạn";
 "mobile.set_status.dnd" = "Đừng làm phiền";
 "mobile.storage_permission_denied_description" = "Tải tệp lên phiên bản Mattermost của bạn. Mở Cài đặt để cấp quyền truy cập Đọc và ghi tệp trên thiết bị này cho Mattermost.";
-"mobile.storage_permission_denied_title" = "Mattermost Beta muốn truy cập tệp của bạn";
+"mobile.storage_permission_denied_title" = "EOX muốn truy cập tệp của bạn";
 "mobile.suggestion.members" = "Các thành viên";
 "mobile.system_message.channel_archived_message" = "{username} đã lưu trữ kênh";
 "mobile.system_message.channel_unarchived_message" = "{username} đã hủy lưu trữ kênh";
@@ -741,7 +740,7 @@ Cần nâng cấp máy chủ để sử dụng ứng dụng Mattermost. Vui lòn
 "mobile.system_message.update_channel_purpose_message.updated_to" = "{username} đã cập nhật mục đích của kênh thành: {newPurpose}";
 "mobile.tos_link" = "Điều khoản dịch vụ";
 "mobile.user_list.deactivated" = "Vô hiệu hóa";
-"mobile.write_storage_permission_denied_description" = "Lưu tập tin vào thiết bị của bạn. Mở Cài đặt để cấp cho Mattermost Beta quyền ghi vào các tệp trên thiết bị này.";
+"mobile.write_storage_permission_denied_description" = "Lưu tập tin vào thiết bị của bạn. Mở Cài đặt để cấp cho EOX quyền ghi vào các tệp trên thiết bị này.";
 "modal.manual_status.auto_responder.message_" = "Bạn có muốn chuyển trạng thái của mình thành \"{status} \"và tắt Trả lời tự động không?";
 "modal.manual_status.auto_responder.message_away" = "Bạn có muốn chuyển trạng thái của mình thành \"Đi vắng \"và tắt Trả lời tự động không?";
 "modal.manual_status.auto_responder.message_dnd" = "Bạn có muốn chuyển trạng thái của mình thành \"Không làm phiền \"và tắt Trả lời tự động không?";
@@ -991,7 +990,7 @@ Bạn có thể đang kết nối với một máy chủ giả danh “{hostname
 "share_extension.channel_label" = "Kênh";
 "share_extension.channels_screen.title" = "Chọn kênh";
 "share_extension.count_limit" = "Bạn chỉ có thể chia sẻ {count, number} {count, plural, one {tệp} other {tệp}} trên máy chủ này";
-"share_extension.error_screen.description" = "Đã xảy ra lỗi khi cố gắng chia sẻ nội dung với Mattermost Beta.";
+"share_extension.error_screen.description" = "Đã xảy ra lỗi khi cố gắng chia sẻ nội dung với EOX.";
 "share_extension.error_screen.label" = "Một lỗi xảy ra";
 "share_extension.error_screen.reason" = "Lý do: {reason}";
 "share_extension.file_limit.multiple" = "Mỗi tệp phải nhỏ hơn {size}";
@@ -1001,7 +1000,7 @@ Bạn có thể đang kết nối với một máy chủ giả danh “{hostname
 "share_extension.multiple_label" = "{count, number} đính kèm";
 "share_extension.server_label" = "Máy chủ";
 "share_extension.servers_screen.title" = "Chọn máy chủ";
-"share_extension.share_screen.title" = "Chia sẻ đến Mattermost Beta";
+"share_extension.share_screen.title" = "Chia sẻ đến EOX";
 "share_extension.upload_disabled" = "Tải lên tệp bị vô hiệu hóa cho máy chủ đã chọn";
 "share_feedback.button.no" = "Không, cám ơn";
 "share_feedback.button.yes" = "Đồng ý";
@@ -1100,3 +1099,4 @@ Bạn có thể đang kết nối với một máy chủ giả danh “{hostname
 "video.download_description" = "Video này phải được tải xuống để phát nó.";
 "video.failed_description" = "Đã xảy ra lỗi khi cố gắng phát video.";
 "your.servers" = "Máy chủ của bạn";
+"channel_info.channel_auto_follow_threads_failed" = "Đã xảy ra lỗi khi cố gắng tự động theo dõi tất cả các chủ đề trong kênh {displayName}";

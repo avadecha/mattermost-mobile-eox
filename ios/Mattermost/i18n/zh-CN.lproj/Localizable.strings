@@ -116,7 +116,6 @@
 "channel_info.archive_failed" = "在试图归档频道{displayName}时发生错误";
 "channel_info.archive_title" = "归档{term}";
 "channel_info.channel_auto_follow_threads" = "关注此频道中的所有话题";
-"channel_info.channel_auto_follow_threads_failed" = "在尝试关注频道{displayName}中的所有话题时遇到问题";
 "channel_info.channel_files" = "文件";
 "channel_info.close" = "关闭";
 "channel_info.close_dm" = "关闭对话";
@@ -444,8 +443,8 @@
 "mobile.add_team.create_team" = "创建一个新团队";
 "mobile.add_team.join_team" = "加入另外的团队";
 "mobile.android.back_handler_exit" = "再次点击返回以退出";
-"mobile.android.photos_permission_denied_description" = "上传照片到您的 Mattermost 或保存到您的设备。打开设定并允许 Mattermost Beta 读写到您的相册。";
-"mobile.android.photos_permission_denied_title" = "Mattermost Beta 想要访问您的照片";
+"mobile.android.photos_permission_denied_description" = "上传照片到您的 Mattermost 或保存到您的设备。打开设定并允许 EOX 读写到您的相册。";
+"mobile.android.photos_permission_denied_title" = "EOX 想要访问您的照片";
 "mobile.announcement_banner.title" = "公告";
 "mobile.calls_audio_device" = "选择音频设备";
 "mobile.calls_bluetooth" = "蓝牙";
@@ -531,8 +530,8 @@
 "mobile.calls_viewing_screen" = "您正在观看{name}的屏幕";
 "mobile.calls_you" = "（您）";
 "mobile.calls_you_2" = "您";
-"mobile.camera_photo_permission_denied_description" = "拍照并上传到您的服务器或保存到您的设备。打开设定并允许 Mattermost Beta 读写到您的相机。";
-"mobile.camera_photo_permission_denied_title" = "Mattermost Beta想要访问您的相机";
+"mobile.camera_photo_permission_denied_description" = "拍照并上传到您的服务器或保存到您的设备。打开设定并允许 EOX 读写到您的相机。";
+"mobile.camera_photo_permission_denied_title" = "EOX想要访问您的相机";
 "mobile.camera_type.title" = "相机选项";
 "mobile.channel_add_members.error" = "有错误发生，我们不能添加那些用户到此频道。";
 "mobile.channel_info.alertNo" = "否";
@@ -593,8 +592,8 @@
 "mobile.gallery.title" = "{index}/{total}";
 "mobile.integration_selector.loading_channels" = "正在载入频道…";
 "mobile.integration_selector.loading_options" = "正在载入选项…";
-"mobile.ios.photos_permission_denied_description" = "拍照并上传到您的服务器或保存到您的设备。打开设定并允许 Mattermost Beta 读写到您的相册和视频集。";
-"mobile.ios.photos_permission_denied_title" = "Mattermost Beta 想要访问您的照片";
+"mobile.ios.photos_permission_denied_description" = "拍照并上传到您的服务器或保存到您的设备。打开设定并允许 EOX 读写到您的相册和视频集。";
+"mobile.ios.photos_permission_denied_title" = "EOX 想要访问您的照片";
 "mobile.join_channel.error" = "我们不会参加频道{displayName}。";
 "mobile.leave_and_join_confirmation" = "离开 & 加入";
 "mobile.leave_and_join_message" = "您已经在频道 ~{leaveChannelName}里进行通话。您希望离开现在的通话加入频道~{joinChannelName}内的通话吗？";
@@ -754,8 +753,8 @@
 "mobile.session_expired_days_hrs" = "请登录以继续接收通知。{siteName}的会话已配置为每 {daysCount, number} 天 {hoursCount, number} 小时过期。";
 "mobile.session_expired_hrs" = "请登录以继续接收通知。{siteName}的会话已配置为每 {hoursCount, number} 小时过期。";
 "mobile.set_status.dnd" = "请勿打扰";
-"mobile.storage_permission_denied_description" = "上传文件到您的 Mattermost。打开设定并允许 Mattermost Beta 读写此设备上的文件。";
-"mobile.storage_permission_denied_title" = "Mattermost Beta 想要访问您的文件";
+"mobile.storage_permission_denied_description" = "上传文件到您的 Mattermost。打开设定并允许 EOX 读写此设备上的文件。";
+"mobile.storage_permission_denied_title" = "EOX 想要访问您的文件";
 "mobile.suggestion.members" = "成员";
 "mobile.system_message.channel_archived_message" = "{username} 已归档频道";
 "mobile.system_message.channel_unarchived_message" = "{username} 已取消归档频道";
@@ -768,7 +767,7 @@
 "mobile.system_message.update_channel_purpose_message.updated_to" = "{username} 更新了频道用途至：{newPurpose}";
 "mobile.tos_link" = "服务条款";
 "mobile.user_list.deactivated" = "已停用";
-"mobile.write_storage_permission_denied_description" = "保存文件到你的设备。打开设定并允许 Mattermost Beta 读写此设备上的文件。";
+"mobile.write_storage_permission_denied_description" = "保存文件到你的设备。打开设定并允许 EOX 读写此设备上的文件。";
 "modal.manual_status.auto_responder.message_" = "您想切换您的状态到 \"{status}\" 并停用自动回复吗？";
 "modal.manual_status.auto_responder.message_away" = "您想切换您的状态到 \"离开\" 并停用自动回复吗？";
 "modal.manual_status.auto_responder.message_dnd" = "您想切换您的状态到 \"请勿打扰\" 并停用自动回复吗？";
@@ -1019,7 +1018,7 @@
 "share_extension.channel_label" = "频道";
 "share_extension.channels_screen.title" = "选择频道";
 "share_extension.count_limit" = "您在此服务器上只能分享 {count, number} 个{count, plural, one {文件} other {文件}}";
-"share_extension.error_screen.description" = "尝试将内容分享到Mattermost Beta时出现错误。";
+"share_extension.error_screen.description" = "尝试将内容分享到EOX时出现错误。";
 "share_extension.error_screen.label" = "发生了一个错误";
 "share_extension.error_screen.reason" = "原因：{reason}";
 "share_extension.file_limit.multiple" = "每个文件必须小于{size}";
@@ -1029,7 +1028,7 @@
 "share_extension.multiple_label" = "{count, number} 附件";
 "share_extension.server_label" = "服务器";
 "share_extension.servers_screen.title" = "选择服务器";
-"share_extension.share_screen.title" = "分享至Mattermost Beta";
+"share_extension.share_screen.title" = "分享至EOX";
 "share_extension.upload_disabled" = "文件上传功能在选择的服务器已关闭";
 "share_feedback.button.no" = "不用了，谢谢";
 "share_feedback.button.yes" = "是的";
@@ -1134,3 +1133,4 @@
 "video.download_description" = "此视频必须下载播放。";
 "video.failed_description" = "当播放此视频发生错误。";
 "your.servers" = "您的服务器";
+"channel_info.channel_auto_follow_threads_failed" = "在尝试关注频道{displayName}中的所有话题时遇到问题";

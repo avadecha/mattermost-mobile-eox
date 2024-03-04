@@ -116,7 +116,6 @@
 "channel_info.archive_failed" = "Произошла ошибка при попытке архивирования канала {displayName}";
 "channel_info.archive_title" = "Архивировать {term}";
 "channel_info.channel_auto_follow_threads" = "Следить за всеми ветками в этом канале";
-"channel_info.channel_auto_follow_threads_failed" = "Произошла ошибка при попытке автоматического отслеживания всех веток в канале {displayName}";
 "channel_info.channel_files" = "Файлы";
 "channel_info.close" = "Закрыть";
 "channel_info.close_dm" = "Закрыть личную переписку";
@@ -444,8 +443,8 @@
 "mobile.add_team.create_team" = "Создайте новую команду";
 "mobile.add_team.join_team" = "Присоединиться к другой команде";
 "mobile.android.back_handler_exit" = "Нажмите еще раз, чтобы выйти";
-"mobile.android.photos_permission_denied_description" = "Загрузите фотографии на сервер или сохраните их на устройстве. Откройте \"Настройки\", чтобы предоставить Mattermost Beta доступ на чтение и запись к библиотеке фотографий.";
-"mobile.android.photos_permission_denied_title" = "Mattermost Beta хотело бы получить доступ к вашим фотографиям";
+"mobile.android.photos_permission_denied_description" = "Загрузите фотографии на сервер или сохраните их на устройстве. Откройте \"Настройки\", чтобы предоставить EOX доступ на чтение и запись к библиотеке фотографий.";
+"mobile.android.photos_permission_denied_title" = "EOX хотело бы получить доступ к вашим фотографиям";
 "mobile.announcement_banner.title" = "Объявление";
 "mobile.calls_audio_device" = "Выберите аудиоустройство";
 "mobile.calls_bluetooth" = "Bluetooth";
@@ -531,8 +530,8 @@
 "mobile.calls_viewing_screen" = "Вы просматриваете экран {name}";
 "mobile.calls_you" = "(это вы)";
 "mobile.calls_you_2" = "Вы";
-"mobile.camera_photo_permission_denied_description" = "Сделайте фотографии и загрузите их на сервер или сохраните на своем устройстве. Откройте Настройки, чтобы предоставить Mattermost Beta доступ на чтение и запись к вашей камере.";
-"mobile.camera_photo_permission_denied_title" = "Mattermost Beta хотел бы получить доступ к вашей камере";
+"mobile.camera_photo_permission_denied_description" = "Сделайте фотографии и загрузите их на сервер или сохраните на своем устройстве. Откройте Настройки, чтобы предоставить EOX доступ на чтение и запись к вашей камере.";
+"mobile.camera_photo_permission_denied_title" = "EOX хотел бы получить доступ к вашей камере";
 "mobile.camera_type.title" = "Параметры камеры";
 "mobile.channel_add_members.error" = "Произошла ошибка, и мы не смогли добавить этих пользователей в канал.";
 "mobile.channel_info.alertNo" = "Нет";
@@ -593,8 +592,8 @@
 "mobile.gallery.title" = "{index} из {total}";
 "mobile.integration_selector.loading_channels" = "Загрузка каналов...";
 "mobile.integration_selector.loading_options" = "Загрузка опций...";
-"mobile.ios.photos_permission_denied_description" = "Загрузите фотографии и видео на сервер или сохраните их на своем устройстве. Откройте Настройки, чтобы предоставить Mattermost Beta доступ на чтение и запись к библиотеке фотографий и видео.";
-"mobile.ios.photos_permission_denied_title" = "Mattermost Beta хотело бы получить доступ к вашим фотографиям";
+"mobile.ios.photos_permission_denied_description" = "Загрузите фотографии и видео на сервер или сохраните их на своем устройстве. Откройте Настройки, чтобы предоставить EOX доступ на чтение и запись к библиотеке фотографий и видео.";
+"mobile.ios.photos_permission_denied_title" = "EOX хотело бы получить доступ к вашим фотографиям";
 "mobile.join_channel.error" = "Мы не смогли присоединиться к каналу {displayName}.";
 "mobile.leave_and_join_confirmation" = "Покинуть и присоединиться";
 "mobile.leave_and_join_message" = "Вы уже разговариваете в канале ~{leaveChannelName}. Вы хотите покинуть текущий звонок и присоединиться к звонку в ~{joinChannelName}?";
@@ -754,8 +753,8 @@
 "mobile.session_expired_days_hrs" = "Пожалуйста, войдите в систему для продолжения получения уведомлений. Сессии для {siteName} настроены на истечение каждые {daysCount, number} {daysCount, plural, one {день} few {дня} other {дней}} и {hoursCount, number} {hoursCount, plural, one {час} few {часа} other {часов}}.";
 "mobile.session_expired_hrs" = "Для продолжения получения уведомлений войдите в систему. Сессии для {siteName} настроены на истечение срока действия каждые {hoursCount, number} {hoursCount, plural, one {час} few {часа} other {часов}}.";
 "mobile.set_status.dnd" = "Не беспокоить";
-"mobile.storage_permission_denied_description" = "Загрузите файлы на свой сервер. Откройте Настройки, чтобы предоставить Mattermost Beta доступ на чтение и запись к файлам на этом устройстве.";
-"mobile.storage_permission_denied_title" = "Mattermost Beta хотело бы получить доступ к вашим файлам";
+"mobile.storage_permission_denied_description" = "Загрузите файлы на свой сервер. Откройте Настройки, чтобы предоставить EOX доступ на чтение и запись к файлам на этом устройстве.";
+"mobile.storage_permission_denied_title" = "EOX хотело бы получить доступ к вашим файлам";
 "mobile.suggestion.members" = "Участники";
 "mobile.system_message.channel_archived_message" = "{username} архивировал канал";
 "mobile.system_message.channel_unarchived_message" = "{username} разархивировал канал";
@@ -768,7 +767,7 @@
 "mobile.system_message.update_channel_purpose_message.updated_to" = "{username} установил назначение канала: {newPurpose}";
 "mobile.tos_link" = "Условия использования";
 "mobile.user_list.deactivated" = "Деактивирован";
-"mobile.write_storage_permission_denied_description" = "Сохраните файлы на устройстве. Откройте Настройки, чтобы предоставить Mattermost Beta доступ на запись к файлам на этом устройстве.";
+"mobile.write_storage_permission_denied_description" = "Сохраните файлы на устройстве. Откройте Настройки, чтобы предоставить EOX доступ на запись к файлам на этом устройстве.";
 "modal.manual_status.auto_responder.message_" = "Вы хотите установить статус \"{status}\" и отключить автоматические ответы?";
 "modal.manual_status.auto_responder.message_away" = "Вы хотите установить статус \"Отошёл\" и отключить автоматические ответы?";
 "modal.manual_status.auto_responder.message_dnd" = "Вы хотите установить статус \"Не беспокоить\" и отключить автоматические ответы?";
@@ -1019,7 +1018,7 @@
 "share_extension.channel_label" = "Канал";
 "share_extension.channels_screen.title" = "Выбрать канал";
 "share_extension.count_limit" = "Вы можете поделиться только {count, number} {count, plural, one {файлом} few{файлами} other {файлами}} на этом сервере";
-"share_extension.error_screen.description" = "При попытке поделиться содержимым на Mattermost Beta произошла ошибка.";
+"share_extension.error_screen.description" = "При попытке поделиться содержимым на EOX произошла ошибка.";
 "share_extension.error_screen.label" = "Произошла ошибка";
 "share_extension.error_screen.reason" = "Причина: {reason}";
 "share_extension.file_limit.multiple" = "Каждый файл должен быть меньше, чем {size}";
@@ -1029,7 +1028,7 @@
 "share_extension.multiple_label" = "{count, number} вложения";
 "share_extension.server_label" = "Сервер";
 "share_extension.servers_screen.title" = "Выберите сервер";
-"share_extension.share_screen.title" = "Поделиться с Mattermost Beta";
+"share_extension.share_screen.title" = "Поделиться с EOX";
 "share_extension.upload_disabled" = "Загрузка файлов отключена для выбранного сервера";
 "share_feedback.button.no" = "Нет, спасибо";
 "share_feedback.button.yes" = "Да";
@@ -1134,3 +1133,4 @@
 "video.download_description" = "Для воспроизведения этого видео необходимо загрузить его.";
 "video.failed_description" = "Возникла ошибка при воспроизведении видео.";
 "your.servers" = "Ваши серверы";
+"channel_info.channel_auto_follow_threads_failed" = "Произошла ошибка при попытке автоматического отслеживания всех веток в канале {displayName}";

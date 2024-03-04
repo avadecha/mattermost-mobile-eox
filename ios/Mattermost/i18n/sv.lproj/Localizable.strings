@@ -116,7 +116,6 @@
 "channel_info.archive_failed" = "Ett fel inträffade när kanalen {displayName} skulle arkiveras";
 "channel_info.archive_title" = "Arkivera {term}";
 "channel_info.channel_auto_follow_threads" = "Följ alla trådar i den här kanalen";
-"channel_info.channel_auto_follow_threads_failed" = "Ett fel uppstod när alla trådar i kanalen {displayName} skulle följas";
 "channel_info.channel_files" = "Filer";
 "channel_info.close" = "Stäng";
 "channel_info.close_dm" = "Stäng direktmeddelande";
@@ -444,8 +443,8 @@
 "mobile.add_team.create_team" = "Skapa ett nytt team";
 "mobile.add_team.join_team" = "Gå med i ett annat team";
 "mobile.android.back_handler_exit" = "Tryck tillbaka igen för att stänga";
-"mobile.android.photos_permission_denied_description" = "Ladda upp foton till servern eller spara dem på din enhet. Öppna Inställningar för att ge Mattermost Beta läs och skriv-rättigheter till fotobiblioteket.";
-"mobile.android.photos_permission_denied_title" = "Mattermost Beta vill ha åtkomst till dina foton";
+"mobile.android.photos_permission_denied_description" = "Ladda upp foton till servern eller spara dem på din enhet. Öppna Inställningar för att ge EOX läs och skriv-rättigheter till fotobiblioteket.";
+"mobile.android.photos_permission_denied_title" = "EOX vill ha åtkomst till dina foton";
 "mobile.announcement_banner.title" = "Informationsmeddelande";
 "mobile.calls_audio_device" = "Välj en ljudenhet";
 "mobile.calls_bluetooth" = "Bluetooth";
@@ -531,8 +530,8 @@
 "mobile.calls_viewing_screen" = "Du ser {name}'s skärm";
 "mobile.calls_you" = "(du)";
 "mobile.calls_you_2" = "Du";
-"mobile.camera_photo_permission_denied_description" = "Ta foton och ladda upp dem till servern eller spara dem på din enhet. Öppna Inställningar för att ge Mattermost Beta läs och skriv-behörigheter till kameran.";
-"mobile.camera_photo_permission_denied_title" = "Mattermost Beta vill få åtkomst till din kamera";
+"mobile.camera_photo_permission_denied_description" = "Ta foton och ladda upp dem till servern eller spara dem på din enhet. Öppna Inställningar för att ge EOX läs och skriv-behörigheter till kameran.";
+"mobile.camera_photo_permission_denied_title" = "EOX vill få åtkomst till din kamera";
 "mobile.camera_type.title" = "Alternativ för kameran";
 "mobile.channel_add_members.error" = "Det har uppstått ett fel och det gick inte att lägga till medlemmarna till kanalen.";
 "mobile.channel_info.alertNo" = "Nej";
@@ -593,8 +592,8 @@ Tryck Starta om för att öppna appen igen. Efter omstart kan du rapportera prob
 "mobile.gallery.title" = "{index} av {total}";
 "mobile.integration_selector.loading_channels" = "Hämtar kanaler...";
 "mobile.integration_selector.loading_options" = "Hämtar alternativ...";
-"mobile.ios.photos_permission_denied_description" = "Ladda upp foton och videor till din server eller spara dem på din enhet. Öppna Inställningar för att ge Mattermost Beta läs- och skrivbehörighet till ditt foto- och videobibliotek.";
-"mobile.ios.photos_permission_denied_title" = "Mattermost Beta vill ha åtkomst till dina foton";
+"mobile.ios.photos_permission_denied_description" = "Ladda upp foton och videor till din server eller spara dem på din enhet. Öppna Inställningar för att ge EOX läs- och skrivbehörighet till ditt foto- och videobibliotek.";
+"mobile.ios.photos_permission_denied_title" = "EOX vill ha åtkomst till dina foton";
 "mobile.join_channel.error" = "Vi kunde inte ansluta till kanalen {displayName}.";
 "mobile.leave_and_join_confirmation" = "Lämna & Anslut";
 "mobile.leave_and_join_message" = "Du är redan i ett kanalsamtal i ~{leaveChannelName}. Vill du lämna det samtalet och ansluta till samtalet i ~{joinChannelName}?";
@@ -754,8 +753,8 @@ En uppgradering av serverprogramvaran är nödvändig för att kunna använda Ma
 "mobile.session_expired_days_hrs" = "Logga in för att fortsätta ta emot notifieringar. {siteName} är konfigurerad att sessionen måste förnyas var {daysCount, number} dag och {hoursCount, number} timme.";
 "mobile.session_expired_hrs" = "Logga in för att fortsätta ta emot notifieringar. {siteName} är konfigurerad att sessionen måste förnyas var {hoursCount, number} timme.";
 "mobile.set_status.dnd" = "Stör ej";
-"mobile.storage_permission_denied_description" = "Ladda upp filer till din server. Öppna Inställningar för att ge Mattermost Beta läs- och skrivåtkomst till filer på den här enheten.";
-"mobile.storage_permission_denied_title" = "Mattermost Beta vill ha åtkomst till dina filer";
+"mobile.storage_permission_denied_description" = "Ladda upp filer till din server. Öppna Inställningar för att ge EOX läs- och skrivåtkomst till filer på den här enheten.";
+"mobile.storage_permission_denied_title" = "EOX vill ha åtkomst till dina filer";
 "mobile.suggestion.members" = "Medlemmar";
 "mobile.system_message.channel_archived_message" = "{username} arkiverade kanalen";
 "mobile.system_message.channel_unarchived_message" = "{username} de-arkiverade kanalen";
@@ -768,7 +767,7 @@ En uppgradering av serverprogramvaran är nödvändig för att kunna använda Ma
 "mobile.system_message.update_channel_purpose_message.updated_to" = "{username} uppdaterade kanalens syfte till: {newPurpose}";
 "mobile.tos_link" = "Användarvillkor";
 "mobile.user_list.deactivated" = "Avaktiverad";
-"mobile.write_storage_permission_denied_description" = "Spara filer på din enhet. Öppna Inställningar för att ge Mattermost Beta skrivbehörighet till filer på den här enheten.";
+"mobile.write_storage_permission_denied_description" = "Spara filer på din enhet. Öppna Inställningar för att ge EOX skrivbehörighet till filer på den här enheten.";
 "modal.manual_status.auto_responder.message_" = "Vill du ändra din status till \"{status}\" och inaktivera Automatiska svar?";
 "modal.manual_status.auto_responder.message_away" = "Vill du ändra din status till \"Borta\" och inaktivera Automatiska svar?";
 "modal.manual_status.auto_responder.message_dnd" = "Vill du ändra din status till \"Stör ej\" och inaktivera automatiska svar?";
@@ -799,6 +798,7 @@ En uppgradering av serverprogramvaran är nödvändig för att kunna använda Ma
 "notification_settings.email.send" = "Skicka mejlnotifieringar";
 "notification_settings.mention.reply" = "Skicka svarsmeddelanden för";
 "notification_settings.mentions" = "Omnämnanden";
+"notification_settings.mentions..keywordsDescription" = "Andra ord som skapar ett omnämnande";
 "notification_settings.mentions.channelWide" = "Kanal-omnämnanden";
 "notification_settings.mentions.keywords" = "Ange andra nyckelord";
 "notification_settings.mentions.keywordsLabel" = "Nyckelord är inte skiftlägeskänsliga. Separera nyckelorden med kommatecken.";
@@ -1018,7 +1018,7 @@ Detta raderar alla filer som laddats ner via appen för den här servern. Bekrä
 "share_extension.channel_label" = "Kanal";
 "share_extension.channels_screen.title" = "Välj kanal";
 "share_extension.count_limit" = "Du kan bara dela {count, number} {count, plural, one {fil} other {filer}} på den här servern";
-"share_extension.error_screen.description" = "Ett fel uppstod när innehållet skulle delas med Mattermost Beta.";
+"share_extension.error_screen.description" = "Ett fel uppstod när innehållet skulle delas med EOX.";
 "share_extension.error_screen.label" = "Ett fel uppstod";
 "share_extension.error_screen.reason" = "Anledning: {reason}";
 "share_extension.file_limit.multiple" = "Varje fil måste vara mindre än {size}";
@@ -1028,7 +1028,7 @@ Detta raderar alla filer som laddats ner via appen för den här servern. Bekrä
 "share_extension.multiple_label" = "{count, number} bilagor";
 "share_extension.server_label" = "Server";
 "share_extension.servers_screen.title" = "Välj server";
-"share_extension.share_screen.title" = "Dela med Mattermost Beta";
+"share_extension.share_screen.title" = "Dela med EOX";
 "share_extension.upload_disabled" = "Filuppladdningar är inaktiverade för den valda servern";
 "share_feedback.button.no" = "Nej tack";
 "share_feedback.button.yes" = "Ja";
@@ -1133,3 +1133,4 @@ Du kan konfigurera detta i aviseringsinställningarna för varje gruppmeddelande
 "video.download_description" = "Denna video måste laddas ner för att kunna spelas upp.";
 "video.failed_description" = "Ett fel uppstod när videon skulle spelas upp.";
 "your.servers" = "Dina servrar";
+"channel_info.channel_auto_follow_threads_failed" = "Ett fel uppstod när alla trådar i kanalen {displayName} skulle följas";

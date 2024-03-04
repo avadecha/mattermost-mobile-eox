@@ -137,7 +137,7 @@
 "file_upload.fileAbove" = "ഫയലുകൾ {max}-ൽ കുറവായിരിക്കണം";
 "mobile.camera_photo_permission_denied_description" = "ഫോട്ടോകൾ എടുത്ത് അവ നിങ്ങളുടെ മാറ്റർമോസ്‌റ്റിലേക്ക് അപ്‌ലോഡ് ചെയ്യുക അല്ലെങ്കിൽ നിങ്ങളുടെ ഉപകരണത്തിൽ സംരക്ഷിക്കുക. നിങ്ങളുടെ ക്യാമറയിലേക്ക് Mattermost Read and Write ആക്‌സസ് അനുവദിക്കുന്നതിന് ക്രമീകരണം തുറക്കുക.";
 "mobile.announcement_banner.title" = "പ്രഖ്യാപനം";
-"mobile.android.photos_permission_denied_title" = "Mattermost Beta നിങ്ങളുടെ ഫോട്ടോകൾ ആക്സസ് ചെയ്യാൻ ആഗ്രഹിക്കുന്നു";
+"mobile.android.photos_permission_denied_title" = "EOX നിങ്ങളുടെ ഫോട്ടോകൾ ആക്സസ് ചെയ്യാൻ ആഗ്രഹിക്കുന്നു";
 "mobile.android.photos_permission_denied_description" = "നിങ്ങളുടെ മാറ്റർമോസ്റ്റ് ഇൻസ്‌റ്റൻസിലേക്ക് ഫോട്ടോകൾ അപ്‌ലോഡ് ചെയ്യുക അല്ലെങ്കിൽ അവ നിങ്ങളുടെ ഉപകരണത്തിൽ സംരക്ഷിക്കുക. നിങ്ങളുടെ ഫോട്ടോ ലൈബ്രറിയിലേക്ക് Mattermost Read and Write ആക്‌സസ് അനുവദിക്കുന്നതിന് ക്രമീകരണം തുറക്കുക.";
 "mobile.android.back_handler_exit" = "പുറത്തുകടക്കാൻ വീണ്ടും അമർത്തുക";
 "mobile.about.appVersion" = "ആപ്പ് പതിപ്പ്: {version} (Build {number})";
@@ -162,7 +162,7 @@
 "last_users_message.added_to_channel.type" = "**ചാനലിൽ ചേർക്കുന്നത്** {actor} ആണ്.";
 "global_threads.markAllRead.message" = "ഇവിടെ കാണിച്ചിരിക്കുന്ന നിങ്ങളുടെ എല്ലാ ത്രെഡുകൾക്കുമായി ഇത് വായിക്കാത്ത സ്റ്റാറ്റസ് മായ്‌ക്കും";
 "friendly_date.now" = "ഇപ്പോൾ";
-"mobile.camera_photo_permission_denied_title" = "Mattermost Beta നിങ്ങളുടെ ക്യാമറ ആക്സസ് ചെയ്യാൻ ആഗ്രഹിക്കുന്നു";
+"mobile.camera_photo_permission_denied_title" = "EOX നിങ്ങളുടെ ക്യാമറ ആക്സസ് ചെയ്യാൻ ആഗ്രഹിക്കുന്നു";
 "mobile.action_menu.select" = "ഒരു ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക";
 "mobile.account.settings.save" = "സേവ്";
 "last_users_message.first" = "{firstUser} ഒപ്പം ";
@@ -175,7 +175,7 @@
 "mobile.channel_info.alertNo" = "അല്ല";
 "channel_modal.header" = "തലക്കെട്ട്";
 "mobile.join_channel.error" = "ഞങ്ങൾക്ക് {displayName} ചാനലിൽ ചേരാനായില്ല. ദയവായി നിങ്ങളുടെ കണക്ഷൻ പരിശോധിച്ച് വീണ്ടും ശ്രമിക്കുക.";
-"mobile.ios.photos_permission_denied_title" = "Mattermost Beta നിങ്ങളുടെ ഫോട്ടോകൾ ആക്സസ് ചെയ്യാൻ ആഗ്രഹിക്കുന്നു";
+"mobile.ios.photos_permission_denied_title" = "EOX നിങ്ങളുടെ ഫോട്ടോകൾ ആക്സസ് ചെയ്യാൻ ആഗ്രഹിക്കുന്നു";
 "mobile.ios.photos_permission_denied_description" = "ഫോട്ടോകളും വീഡിയോകളും നിങ്ങളുടെ മാറ്റർമോസ്റ്റ് ഇൻസ്‌റ്റൻസിലേക്ക് അപ്‌ലോഡ് ചെയ്യുക അല്ലെങ്കിൽ അവ നിങ്ങളുടെ ഉപകരണത്തിൽ സംരക്ഷിക്കുക. നിങ്ങളുടെ ഫോട്ടോ, വീഡിയോ ലൈബ്രറിയിലേക്ക് മാറ്റർമോസ്റ്റ് റീഡും റൈറ്റും ആക്‌സസ് അനുവദിക്കുന്നതിന് ക്രമീകരണം തുറക്കുക.";
 "mobile.link.error.title" = "തെറ്റ്";
 "mobile.error_handler.title" = "അപ്രതീക്ഷിത തെറ്റ് സംഭവിച്ചു";

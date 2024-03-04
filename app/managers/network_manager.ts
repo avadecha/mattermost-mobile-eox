@@ -98,7 +98,7 @@ class NetworkManager {
     };
 
     private buildConfig = async () => {
-        const userAgent = `Mattermost Mobile/${DeviceInfo.getVersion()}+${DeviceInfo.getBuildNumber()} (${DeviceInfo.getSystemName()}; ${DeviceInfo.getSystemVersion()}; ${DeviceInfo.getModel()})`;
+        const userAgent = `EOX Mobile/${DeviceInfo.getVersion()}+${DeviceInfo.getBuildNumber()} (${DeviceInfo.getSystemName()}; ${DeviceInfo.getSystemVersion()}; ${DeviceInfo.getModel()})`;
         const managedConfig = ManagedApp.enabled ? Emm.getManagedConfig<ManagedConfig>() : undefined;
         const headers: Record<string, string> = {
             [ClientConstants.HEADER_USER_AGENT]: userAgent,
