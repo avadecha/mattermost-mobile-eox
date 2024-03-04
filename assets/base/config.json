@@ -1,8 +1,8 @@
 {
-    "DefaultServerUrl": "",
-    "DefaultServerName": "",
+    "DefaultServerUrl": "chat.eoxvantage.com",
+    "DefaultServerName": "EOX Vantage",
     "TestServerUrl": "http://localhost:8065",
-    "AutoSelectServerUrl": false,
+    "AutoSelectServerUrl": true,
 
     "WebsiteURL": "https://mattermost.com",
     "ServerNoticeURL": "https://github.com/mattermost/mattermost-server/blob/master/NOTICE.txt",

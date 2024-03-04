@@ -9,11 +9,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Mattermost Beta</string>
+	<string>EOX</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.mattermost.rnbeta</string>
+	<string>com.eox-bundles.rnbeta</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -31,7 +31,7 @@
 			<string>com.mattermost</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>mattermost</string>
+				<string>eox</string>
 				<string>mmauthbeta</string>
 			</array>
 		</dict>
