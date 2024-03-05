@@ -22,7 +22,7 @@ import com.facebook.react.ReactInstanceEventListener;
 import com.facebook.react.ReactInstanceManager;
 import com.facebook.react.bridge.ReactContext;
 import com.facebook.react.modules.network.NetworkingModule;
-import com.eox.mattermost.networkclient.RCTOkHttpClientFactory;
+import com.mattermost.networkclient.RCTOkHttpClientFactory;
 
 /**
  * Class responsible of loading Flipper inside your React Native application. This is the debug

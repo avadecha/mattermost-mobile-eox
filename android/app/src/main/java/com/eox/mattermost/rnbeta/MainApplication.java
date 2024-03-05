@@ -37,7 +37,7 @@ import com.facebook.react.modules.network.OkHttpClientProvider;
 import com.facebook.soloader.SoLoader;
 
 import com.eox.mattermost.flipper.ReactNativeFlipper;
-import com.eox.mattermost.networkclient.RCTOkHttpClientFactory;
+import com.mattermost.networkclient.RCTOkHttpClientFactory;
 import com.nozbe.watermelondb.jsi.WatermelonDBJSIPackage;
 
 public class MainApplication extends NavigationApplication implements INotificationsApplication {

@@ -8,8 +8,8 @@ import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.bridge.ReadableMap;
 
-import com.eox.mattermost.networkclient.APIClientModule;
-import com.eox.mattermost.networkclient.enums.RetryTypes;
+import com.mattermost.networkclient.APIClientModule;
+import com.mattermost.networkclient.enums.RetryTypes;
 
 import okhttp3.HttpUrl;
 import okhttp3.Response;
