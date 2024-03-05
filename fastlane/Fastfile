@@ -50,7 +50,7 @@ after_all do |lane|
     if ENV['RESET_GIT_BRANCH'] == 'true'
       branch = ENV['BRANCH_TO_BUILD'] || 'main'
       package_id = ENV['MAIN_APP_IDENTIFIER'] || 'com.mattermost.rnbeta'
-      beta_dir = '../android/app/src/main/java/com/mattermost/rnbeta'
+      beta_dir = '../android/app/src/main/java/com/eox/mattermost/rnbeta'
       release_dir = "../android/app/src/main/java/#{package_id.gsub '.', '/'}"
 
       if beta_dir != release_dir
@@ -755,8 +755,8 @@ platform :android do
       )
     end
 
-    helpers_dir = './android/app/src/main/java/com/mattermost/helpers/'
-    beta_dir = './android/app/src/main/java/com/mattermost/rnbeta/'
+    helpers_dir = './android/app/src/main/java/com/eox/mattermost/helpers/'
+    beta_dir = './android/app/src/main/java/com/eox/mattermost/rnbeta/'
     release_dir = "./android/app/src/main/java/#{package_id.gsub '.', '/'}/"
     if release_dir != beta_dir
       unless Dir.exist?(".#{release_dir}")
@@ -765,45 +765,50 @@ platform :android do
 
       sh "mv .#{beta_dir}* .#{release_dir}"
 
-      Dir.glob(".#{release_dir}*.java") do |item|
-        find_replace_string(
-            path_to_file: item[1..-1],
-            old_string: 'package com.mattermost.rnbeta;',
-            new_string: "package #{package_id};"
-        )
-      end
+      # Dir.glob(".#{release_dir}*.java") do |item|
+      #   find_replace_string(
+      #       path_to_file: item[1..-1],
+      #       old_string: 'package com.mattermost.rnbeta;',
+      #       new_string: "package #{package_id};"
+      #   )
+      #   find_replace_string(
+      #       path_to_file: item[1..-1],
+      #       old_string: 'com.mattermost.rnbeta',
+      #       new_string: "#{package_id};"
+      #   )
+      # end
 
-      Dir.glob(".#{release_dir}*.kt") do |item|
-        find_replace_string(
-            path_to_file: item[1..-1],
-            old_string: 'package com.mattermost.rnbeta',
-            new_string: "package #{package_id}"
-        )
-      end
+      # Dir.glob(".#{release_dir}*.kt") do |item|
+      #   find_replace_string(
+      #       path_to_file: item[1..-1],
+      #       old_string: 'package com.mattermost.rnbeta',
+      #       new_string: "package #{package_id}"
+      #   )
+      # end
 
-      Dir.glob('../android/app/src/main/java/com/mattermost/share/*.java') do |item|
-        find_replace_string(
-            path_to_file: item[1..-1],
-            old_string: 'import com.mattermost.rnbeta.MainApplication;',
-            new_string: "import #{package_id}.MainApplication;"
-        )
-      end
+      # Dir.glob('../android/app/src/main/java/com/eox/mattermost/share/*.java') do |item|
+      #   find_replace_string(
+      #       path_to_file: item[1..-1],
+      #       old_string: 'import com.mattermost.rnbeta.MainApplication;',
+      #       new_string: "import #{package_id}.MainApplication;"
+      #   )
+      # end
 
-      Dir.glob('../android/app/src/main/java/com/mattermost/helpers/*.java') do |item|
-        find_replace_string(
-            path_to_file: item[1..-1],
-            old_string: 'import com.mattermost.rnbeta.*;',
-            new_string: "import #{package_id}.*;"
-        )
-      end
+      # Dir.glob('../android/app/src/main/java/com/eox/mattermost/helpers/*.java') do |item|
+      #   find_replace_string(
+      #       path_to_file: item[1..-1],
+      #       old_string: 'import com.mattermost.rnbeta.*;',
+      #       new_string: "import #{package_id}.*;"
+      #   )
+      # end
 
-      Dir.glob('../android/app/src/main/java/com/mattermost/helpers/*.kt') do |item|
-        find_replace_string(
-            path_to_file: item[1..-1],
-            old_string: 'import com.mattermost.rnbeta.*',
-            new_string: "import #{package_id}.*"
-        )
-      end
+      # Dir.glob('../android/app/src/main/java/com/eox/mattermost/helpers/*.kt') do |item|
+      #   find_replace_string(
+      #       path_to_file: item[1..-1],
+      #       old_string: 'import com.mattermost.rnbeta.*',
+      #       new_string: "import #{package_id}.*"
+      #   )
+      # end
     end
   end
 

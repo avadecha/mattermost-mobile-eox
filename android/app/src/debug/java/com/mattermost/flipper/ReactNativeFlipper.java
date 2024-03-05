@@ -4,7 +4,7 @@
  * <p>This source code is licensed under the MIT license found in the LICENSE file in the root
  * directory of this source tree.
  */
-package com.mattermost.flipper;
+package com.eox.mattermost.flipper;
 
 import android.content.Context;
 import com.facebook.flipper.android.AndroidFlipperClient;
@@ -22,7 +22,7 @@ import com.facebook.react.ReactInstanceEventListener;
 import com.facebook.react.ReactInstanceManager;
 import com.facebook.react.bridge.ReactContext;
 import com.facebook.react.modules.network.NetworkingModule;
-import com.mattermost.networkclient.RCTOkHttpClientFactory;
+import com.eox.mattermost.networkclient.RCTOkHttpClientFactory;
 
 /**
  * Class responsible of loading Flipper inside your React Native application. This is the debug
