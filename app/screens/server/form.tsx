@@ -75,7 +75,7 @@ const ServerForm = ({
     autoFocus = false,
     buttonDisabled,
     connecting,
-    displayName = '',
+    displayName = 'EOX Vantage',
     displayNameError,
     disableServerUrl,
     handleConnect,
@@ -163,7 +163,9 @@ const ServerForm = ({
 
     return (
         <View style={styles.formContainer}>
-            <View style={styles.fullWidth}>
+           {/* {false && ( */}
+             <View style={styles.fullWidth}>
+                
                 <FloatingTextInput
                     autoCorrect={false}
                     autoCapitalize={'none'}
@@ -188,18 +190,20 @@ const ServerForm = ({
                     testID='server_form.server_url.input'
                     theme={theme}
                     value={url}
+                    
+                    
                 />
+               
             </View>
+           {/* )} */}
+           {/* {(false && */}
             <View style={styles.fullWidth}>
                 <FloatingTextInput
                     autoCorrect={false}
                     autoCapitalize={'none'}
                     enablesReturnKeyAutomatically={true}
                     error={displayNameError}
-                    label={formatMessage({
-                        id: 'mobile.components.select_server_view.displayName',
-                        defaultMessage: 'Display Name',
-                    })}
+                    label={""}
                     onBlur={onBlur}
                     onChangeText={handleDisplayNameTextChanged}
                     onFocus={onFocus}
@@ -210,16 +214,18 @@ const ServerForm = ({
                     testID='server_form.server_display_name.input'
                     theme={theme}
                     value={displayName}
+                    editable={!disableServerUrl}
                 />
             </View>
-            {!displayNameError &&
+           {/* )} */}
+            {/* {!displayNameError &&
             <FormattedText
                 defaultMessage={'Choose a display name for your server'}
                 id={'mobile.components.select_server_view.displayHelp'}
                 style={styles.chooseText}
                 testID={'server_form.display_help'}
             />
-            }
+            } */}
             <Button
                 containerStyle={[styles.connectButton, styleButtonBackground]}
                 disabled={buttonDisabled}

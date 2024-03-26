@@ -17,7 +17,7 @@ import {bottomSheet} from '@screens/navigation';
 import {bottomSheetSnapPoint} from '@utils/helpers';
 import {sortServersByDisplayName} from '@utils/server';
 
-import {AddServerButton} from './servers_list';
+import ServerList,{AddServerButton} from './servers_list';
 
 import type ServersModel from '@typings/database/models/app/servers';
 import type {UnreadMessages, UnreadSubscription} from '@typings/database/subscriptions';
@@ -112,10 +112,10 @@ const Servers = React.forwardRef<ServersRef>((_, ref) => {
     const onPress = useCallback(() => {
         if (registeredServers.current?.length) {
             const renderContent = () => {
-                return (<div></div>)
-                // return (
-                // <ServerList servers={registeredServers.current!}/>
-                // );
+                // return (<div></div>)
+                return (
+                <ServerList servers={registeredServers.current!}/>
+                );
             };
             const maxScreenHeight = Math.ceil(0.6 * Dimensions.get('window').height);
             const maxSnapPoint = Math.min(

@@ -91,7 +91,7 @@ const Server = ({
     const [urlError, setUrlError] = useState<string | undefined>();
     const styles = getStyleSheet(theme);
     const {formatMessage} = intl;
-    const disableServerUrl = true;
+    const disableServerUrl = false;
     const additionalServer = launchType === Launch.AddServerFromDeepLink || launchType === Launch.AddServer;
 
     const dismiss = () => {

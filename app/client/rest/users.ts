@@ -161,6 +161,35 @@ const ClientUsers = <TBase extends Constructor<ClientBase>>(superclass: TBase) =
     };
 
     loginById = async (id: string, password: string, token = '', deviceId = '') => {
+        const baseRoute = this.apiClient.getBaseRoute();
+        const containsEOS = baseRoute.includes('eos.eoxvantage.com');
+        
+        if (containsEOS) {
+            const body: any = {
+                username:id,
+                password
+            };
+            const formData = new FormData();
+            formData.append('username', id);
+            formData.append('password', password);
+            console.log("Varun's Log");
+            console.log("Before login");
+    
+            const bosdata = await this.doFetch(
+                `https://eos.eoxvantage.com:9080/auth`,
+                {method: 'post', body: formData},
+            );
+           
+            const chatBody: any = {
+                oxauth:bosdata.data.jwt
+            }
+            const {data} = await this.doFetch(
+                `${this.getBaseRoute()}/login`,
+                {method: 'post', body: JSON.stringify(body)},
+            );
+            return data;
+        }
+        else{
         this.analytics?.trackAPI('api_users_login');
         const body: any = {
             device_id: deviceId,
@@ -180,6 +209,7 @@ const ClientUsers = <TBase extends Constructor<ClientBase>>(superclass: TBase) =
         );
 
         return data;
+        }
     };
 
     logout = async () => {

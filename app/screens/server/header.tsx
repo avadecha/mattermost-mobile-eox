@@ -59,8 +59,8 @@ const ServerHeader = ({additionalServer, theme}: Props) => {
     } else {
         title = (
             <FormattedText
-                defaultMessage='Let’s Connect to a Server'
-                id='mobile.components.select_server_view.msg_connect'
+                defaultMessage='Enterprise Operating System'
+                id='na'
                 style={[styles.connect, isTablet ? styles.connectTablet : undefined]}
                 testID='server_header.title.connect_to_server'
             />
@@ -79,8 +79,8 @@ const ServerHeader = ({additionalServer, theme}: Props) => {
             }
             {title}
             <FormattedText
-                defaultMessage="A server is your team's communication hub accessed using a unique URL"
-                id='mobile.components.select_server_view.msg_description'
+                defaultMessage="Our patented technology platform helps you organize and manage all components of your organization into one place, creating tailored real-time dashboards for company-wide visibility. "
+                id='na'
                 style={styles.description}
                 testID='server_header.description'
             />

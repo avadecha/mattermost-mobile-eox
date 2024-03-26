@@ -51,7 +51,7 @@ function Header() {
     const serverUrl = useServerUrl();
 
     // const managedConfig = useManagedConfig<ManagedConfig>();
-    const canAddOtherServers = false;
+    const canAddOtherServers = true;
     const serverButtonRef = useRef<ServersRef>(null);
 
     const headerStyle = useMemo(() => ({...styles.header, marginLeft: canAddOtherServers ? MARGIN_WITH_SERVER_ICON : undefined}), [canAddOtherServers]);
