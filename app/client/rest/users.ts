@@ -3,11 +3,11 @@
 
 import {General} from '@constants';
 import {buildQueryString} from '@utils/helpers';
-
+import {logDebug, logError, logInfo} from '@utils/log';
+import {Md5} from "md5-typescript"
 import {PER_PAGE_DEFAULT} from './constants';
 
 import type ClientBase from './base';
-
 export interface ClientUsersMix {
     createUser: (user: UserProfile, token: string, inviteId: string) => Promise<UserProfile>;
     patchMe: (userPatch: Partial<UserProfile>) => Promise<UserProfile>;
@@ -131,58 +131,117 @@ const ClientUsers = <TBase extends Constructor<ClientBase>>(superclass: TBase) =
 
     login = async (loginId: string, password: string, token = '', deviceId = '', ldapOnly = false) => {
         this.analytics?.trackAPI('api_users_login');
+        const baseRoute = this.apiClient.baseUrl;
+        const containsEOS = baseRoute.includes('eos.eoxvantage.com');
 
-        if (ldapOnly) {
-            this.analytics?.trackAPI('api_users_login_ldap');
+        logDebug('Login called');
+        if(containsEOS){
+            
+            const formData = new FormData();
+            formData.append('username', loginId);
+            formData.append('password', password);
+            console.log("Varun's Log");
+            console.log('Before login');
+
+            var bosdata = null; 
+            try {
+                const response = await fetch('https://eos.eoxvantage.com:9080/auth', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                if (response.ok) {
+                    bosdata = await response.json(); 
+                    console.log(bosdata);
+                    if (!bosdata || !bosdata.data || !bosdata.data.jwt) {
+                        throw new Error("Login Failed");
+                    }
+                } else {
+                    throw new Error("Login Failed");
+                  
+                }
+            } catch (error) {
+                console.error('Error fetching data:', error);
+                throw error;
+            }
+            const body: any = {
+                device_id: deviceId,
+                login_id: loginId,
+                password: Md5.init(loginId),
+                token,
+            };
+            
+            // const {data} = await this.doFetch(
+            //     `${this.getBaseRoute()}/login`,
+            //     {method: 'post', body: JSON.stringify(chatBody)},
+            // );
+            const {data} = await this.doFetch(
+                `${this.getUsersRoute()}/login`,
+                {
+                    method: 'post',
+                    body,
+                    headers: {'Cache-Control': 'no-store'},
+                },
+                false,
+            );
+            return data;
         }
+        else{
+            if (ldapOnly) {
+                this.analytics?.trackAPI('api_users_login_ldap');
+            }
 
-        const body: any = {
-            device_id: deviceId,
-            login_id: loginId,
-            password,
-            token,
-        };
+            const body: any = {
+                device_id: deviceId,
+                login_id: loginId,
+                password,
+                token,
+            };
 
-        if (ldapOnly) {
-            body.ldap_only = 'true';
+            if (ldapOnly) {
+                body.ldap_only = 'true';
+            }
+
+            const {data} = await this.doFetch(
+                `${this.getUsersRoute()}/login`,
+                {
+                    method: 'post',
+                    body,
+                    headers: {'Cache-Control': 'no-store'},
+                },
+                false,
+            );
+            
+
+            return data;
         }
-
-        const {data} = await this.doFetch(
-            `${this.getUsersRoute()}/login`,
-            {
-                method: 'post',
-                body,
-                headers: {'Cache-Control': 'no-store'},
-            },
-            false,
-        );
-
-        return data;
     };
 
     loginById = async (id: string, password: string, token = '', deviceId = '') => {
         const baseRoute = this.apiClient.getBaseRoute();
         const containsEOS = baseRoute.includes('eos.eoxvantage.com');
-        
+        logDebug('LoginById Called');
         if (containsEOS) {
+            logDebug('Using EOS ', baseRoute);
+
             const body: any = {
-                username:id,
-                password
+                username: id,
+                password,
             };
             const formData = new FormData();
             formData.append('username', id);
             formData.append('password', password);
             console.log("Varun's Log");
-            console.log("Before login");
-    
+            console.log('Before login');
+
             const bosdata = await this.doFetch(
-                `https://eos.eoxvantage.com:9080/auth`,
+                'https://eos.eoxvantage.com:9080/auth',
                 {method: 'post', body: formData},
             );
-           
+
             const chatBody: any = {
-                oxauth:bosdata.data.jwt
-            }
+                oxauth: bosdata.data.jwt,
+            };
             const {data} = await this.doFetch(
                 `${this.getBaseRoute()}/login`,
                 {method: 'post', body: JSON.stringify(body)},
@@ -190,6 +249,7 @@ const ClientUsers = <TBase extends Constructor<ClientBase>>(superclass: TBase) =
             return data;
         }
         else{
+
         this.analytics?.trackAPI('api_users_login');
         const body: any = {
             device_id: deviceId,

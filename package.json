@@ -48,6 +48,7 @@
     "fuse.js": "7.0.0",
     "html-entities": "2.4.0",
     "jail-monkey": "2.8.0",
+    "md5-typescript": "1.0.5",
     "mime-db": "1.52.0",
     "moment-timezone": "0.5.43",
     "pako": "2.1.0",
